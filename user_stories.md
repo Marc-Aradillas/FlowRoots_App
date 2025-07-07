@@ -1,6 +1,6 @@
 # User Stories
 
-## User Stories for Dance Community AI App idea
+## User Stories for FlowRoots App idea
 
 1. As a beginner dancer, I want to ask questions about styles like waving or tutting, so that I can start practicing.
 
