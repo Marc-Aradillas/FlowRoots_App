@@ -11,3 +11,9 @@
 4. As a curious visitor, I want to learn the history of Popping and its substyles, so that I understand its cultural roots.
 
 5. As a community member, I want to submit questions or suggestions to the app, so that it reflects what we care about.
+
+6. As a dancer who pursues battles and cyphers, I want to be able to search for local communities when traveling and commuting, so that I can network.
+
+7. As a parent, I want to be able to find kid-friendly dance classes and events, so that I can introduce my child to dancing
+
+8. As a Disc Jockey, I want to be able to see what music people are dancing to, so that I can understand what music is popular in different communities.
