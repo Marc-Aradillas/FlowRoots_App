@@ -10,4 +10,4 @@
 
 ### A passion project centered around a useful tool for the local Dallas dance community, specifically street styles.
 
-#### The idea and vision is to create a hub and AI assistant focused on helping dancers in Dallas find their path and get assistance and updates on happenings such as events, cyphers, classes, etc.
+#### The idea and vision is to create a hub and AI assistant focused on helping dancers in Dallas find their path and get assistance and updates on happenings such as events, cyphers, classes, etc. It may be used as a Point of Contact Site for outside organizations looking to interact with this niche community.
