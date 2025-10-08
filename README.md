@@ -74,16 +74,5 @@ FlowRoots_App/
 
 🧠 Author
 
-Anthony Aradillas
+Marc Anthony Aradillas
 FlowRoots Project | Dallas Dance Community
-
-
----
-
-## 🧩 Step 4: First Git Commit
-
-Once `.gitignore` and `README.md` are in place, run:
-
-```bash
-git add .
-git commit -m "Initial commit: Project scaffold, README, and .gitignore"
