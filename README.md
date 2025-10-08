@@ -8,9 +8,12 @@
   </a>
 </p> -->
 
+## 💡 Vision
+### “To strengthen and connect the street dance community through accessible, ethical AI tools.”
+
 ### A passion project centered around a useful tool for the local Dallas dance community, specifically street styles.
 
-#### The idea and vision is to create a hub and AI assistant focused on helping dancers in Dallas find their path and get assistance and updates on happenings such as events, cyphers, classes, etc. It may be used as a Point of Contact Site for outside organizations looking to interact with this niche community.
+### The idea and vision is to create a hub and AI assistant focused on helping dancers in Dallas find their path and get assistance and updates on happenings such as events, cyphers, classes, etc. It may be used as a Point of Contact Site for outside organizations looking to interact with this niche community.
 
 # FlowRoots App 🎶💃
 
@@ -54,11 +57,6 @@ FlowRoots_App/
 3. Run the app:
    ```bash
    python main.py
-
----
-
-## 💡 Vision
-### “To strengthen and connect the street dance community through accessible, ethical AI tools.”
 
 ---
 
