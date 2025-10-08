@@ -70,7 +70,7 @@ FlowRoots_App/
 
 * Enable user submissions and local data persistence
 
-🧠 Author
+## 🧠 Author
 
-Marc Anthony Aradillas
-FlowRoots Project | Dallas Dance Community
+### Marc Anthony Aradillas
+### FlowRoots Project | Dallas Dance Community
