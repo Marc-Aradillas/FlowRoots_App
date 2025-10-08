@@ -29,19 +29,19 @@ We’re building the project from the ground up with:
 
 ## 🧩 Structure
 
-FlowRoots_App/
-├── main.py
-├── chatbot/
-│ └── bot.py
-├── modules/
-│ ├── learn.py
-│ ├── discover.py
-│ └── contribute.py
-├── data/
-│ ├── events.json
-│ └── styles.json
-├── README.md
-└── .gitignore
+# FlowRoots_App/
+# ├── main.py
+# ├── chatbot/
+# │ └── bot.py
+# ├── modules/
+# │ ├── learn.py
+# │ ├── discover.py
+# │ └── contribute.py
+# ├── data/
+# │ ├── events.json
+# │ └── styles.json
+# ├── README.md
+# └── .gitignore
 
 
 ---
