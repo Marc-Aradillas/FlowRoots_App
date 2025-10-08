@@ -1,80 +1,152 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flow Roots - Uplifting Dallas Popping</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Flow Roots — Uplifting Dallas Popping</title>
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Poppins:wght@600;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <div class="header-content">
-            <h1>Flow Roots</h1>
-            <p>Uplifting the Dallas Popping Community</p>
-        </div>
-    </header>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="#home">
+        <img src="assets/FLOWROOTS_LOGO.png" alt="Flow Roots logo" class="brand-logo">
+        <span class="brand-text">Flow Roots</span>
+      </a>
 
-    <nav>
-        <ul>
-            <li><a href="#about">About Us</a></li>
-            <li><a href="#workshops">Workshops</a></li>
-            <li><a href="#team">Meet the Team</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
+      <button class="nav-toggle" aria-label="Open navigation" id="navToggle">☰</button>
 
-    <section id="about">
-        <h2>About Us</h2>
-        <p>Established in September 2024, Flow Roots is a Dallas-based organization created with the intention of uplifting the Dallas Popping community. Inspired by the legacy of John Doe, we aim to bring the same level of inspiration to dancers and enthusiasts alike.</p>
+      <nav class="main-nav" id="mainNav">
+        <a href="#about">About</a>
+        <a href="#workshops">Workshops</a>
+        <a href="#team">Meet the Team</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section id="home" class="hero">
+      <div class="hero-inner">
+        <h1 class="hero-title">Flow Roots</h1>
+        <p class="hero-sub">Uplifting the Dallas Popping Community</p>
+        <p class="hero-cta">
+          <a href="#workshops" class="btn">View Workshops</a>
+          <a href="#contact" class="btn btn-ghost">Contact Us</a>
+        </p>
+      </div>
+      <div class="hero-wave" aria-hidden="true"></div>
     </section>
 
-    <section id="workshops">
-        <h2>Workshops</h2>
-        <p>Kick off the new year with our ✨ EXCITING ✨ workshops, featuring four classes:</p>
-        <ul>
-            <li><strong>Popping:</strong> Master the foundations and originality with @shadowz.14.</li>
-            <li><strong>Waving:</strong> Learn the art of being like water 🌊 with @artofzenith.</li>
-            <li><strong>Tutting:</strong> Explore lines and angles with @txwonder214.</li>
-            <li><strong>Animation:</strong> Discover character play and technique with @rift_1.</li>
-        </ul>
-        <p><strong>Pricing:</strong></p>
-        <ul>
-            <li>Early-bird: $15/class or $50 for all 4 (until Jan. 1)</li>
-            <li>General: $20/class or $65 for all 4</li>
-        </ul>
+    <!-- ABOUT -->
+    <section id="about" class="container section reveal">
+      <h2 class="section-title">About Us</h2>
+      <p class="lead">Established in September 2024, Flow Roots is a Dallas-based organization created with the intention of uplifting the Dallas Popping community. Inspired by the legacy of John Doe, we aim to bring the same level of inspiration to dancers and enthusiasts alike.</p>
     </section>
 
-    <section id="team">
-        <h2>Meet the Team</h2>
-        <div class="team-member">
-            <h3>Shadowz</h3>
+    <!-- WORKSHOPS -->
+    <section id="workshops" class="container section reveal">
+      <h2 class="section-title">Workshops</h2>
+      <p>Kick off the new year with our ✨ EXCITING ✨ workshops, featuring four classes:</p>
+
+      <div class="cards-grid">
+        <article class="card">
+          <h3>Popping</h3>
+          <p>Master the foundations and originality with <strong>@shadowz.14</strong>.</p>
+        </article>
+
+        <article class="card">
+          <h3>Waving</h3>
+          <p>Learn the art of being like water 🌊 with <strong>@artofzenith</strong>.</p>
+        </article>
+
+        <article class="card">
+          <h3>Tutting</h3>
+          <p>Explore lines and angles with <strong>@txwonder214</strong>.</p>
+        </article>
+
+        <article class="card">
+          <h3>Animation</h3>
+          <p>Discover character play and technique with <strong>@rift_1</strong>.</p>
+        </article>
+      </div>
+
+      <div class="pricing">
+        <p><strong>Early-bird:</strong> $15/class or $50 for all 4 (until Jan. 1)</p>
+        <p><strong>General:</strong> $20/class or $65 for all 4</p>
+      </div>
+    </section>
+
+    <!-- TEAM -->
+    <section id="team" class="container section reveal">
+      <h2 class="section-title">Meet the Team</h2>
+
+      <div class="team-grid">
+        <figure class="team-card">
+          <div class="avatar" aria-hidden="true"></div>
+          <figcaption>
+            <h4>Shadowz</h4>
             <p>Popping Teacher: A master of foundation and originality in Dallas Popping.</p>
-        </div>
-        <div class="team-member">
-            <h3>Zenith</h3>
+          </figcaption>
+        </figure>
+
+        <figure class="team-card">
+          <div class="avatar" aria-hidden="true"></div>
+          <figcaption>
+            <h4>Zenith</h4>
             <p>Waving Teacher: A wizard in the waving community, upholding the essence of movement.</p>
-        </div>
-        <div class="team-member">
-            <h3>Wonder</h3>
+          </figcaption>
+        </figure>
+
+        <figure class="team-card">
+          <div class="avatar" aria-hidden="true"></div>
+          <figcaption>
+            <h4>Wonder</h4>
             <p>Tutting Teacher: Known for breaking down angles and levels in creative ways.</p>
-        </div>
-        <div class="team-member">
-            <h3>Rift</h3>
+          </figcaption>
+        </figure>
+
+        <figure class="team-card">
+          <div class="avatar" aria-hidden="true"></div>
+          <figcaption>
+            <h4>Rift</h4>
             <p>Animation Teacher: Demonstrates mind-body visualization and immaculate technique.</p>
-        </div>
-        <div class="team-member">
-            <h3>MJG</h3>
+          </figcaption>
+        </figure>
+
+        <figure class="team-card">
+          <div class="avatar" aria-hidden="true"></div>
+          <figcaption>
+            <h4>MJG</h4>
             <p>Filmmaker/Visual Creator: Captures magic behind the lens, enhancing the experience.</p>
-        </div>
+          </figcaption>
+        </figure>
+      </div>
     </section>
 
-    <section id="contact">
-        <h2>Contact Us</h2>
-        <p>Register for workshops via DM on Instagram (@flowrootsdallas). Payments accepted through Venmo, Zelle, etc.</p>
-    </section>
+    <!-- CONTACT -->
+    <section id="contact" class="container section reveal">
+      <h2 class="section-title">Contact Us</h2>
+      <p>Register for workshops via DM on Instagram <strong>@flowrootsdallas</strong>. Payments accepted through Venmo, Zelle, etc.</p>
 
-    <footer>
-        <p>&copy; 2024 Flow Roots. All Rights Reserved.</p>
-    </footer>
+      <div class="contact-row">
+        <a class="social-link" href="https://instagram.com/flowrootsdallas" target="_blank" rel="noopener">Instagram</a>
+        <a class="social-link" href="#" rel="noopener">Venmo</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2024 Flow Roots. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
