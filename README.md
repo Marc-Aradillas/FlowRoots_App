@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/IG PROFILE - Copy.png" alt="FlowRoots Logo" width="300"/>
+  <img src="assets/FLOWROOTS_LOGO.png" alt="FlowRoots Logo" width="300"/>
 </p>
 
 <!-- <p align="center">
