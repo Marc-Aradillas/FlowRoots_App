@@ -35,17 +35,14 @@ We’re building the project from the ground up with:
 ```plaintext
 FlowRoots_App/
 ├── main.py
-├── chatbot/
-│ └── bot.py
 ├── modules/
-│ ├── learn.py
-│ ├── discover.py
-│ └── contribute.py
+├── chatbot/
 ├── data/
-│ ├── events.json
-│ └── styles.json
+├── web/
+│   ├── index.html
+│   ├── styles.css
+│   └── script.js
 ├── README.md
-└── .gitignore
 ```
 
 
